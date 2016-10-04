@@ -1,10 +1,11 @@
-package com.yuzhiyun.csdn.model;
+package com.yuzhiyun.csdn.model.adapter;
 
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 
-import com.yuzhiyun.csdn.control.fragment.BlankFragment;
+import com.yuzhiyun.csdn.control.fragment.ContentFragment;
+import com.yuzhiyun.csdn.model.Constant;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -19,8 +20,8 @@ public class ContentAdapter extends FragmentPagerAdapter {
     public ContentAdapter(FragmentManager fm) {
 
         super(fm);
-        fragmentList.add(new BlankFragment("第一个"));
-        fragmentList.add(new BlankFragment("第二个"));
+        fragmentList.add(new ContentFragment(Constant.INDEX_PAGE_1));
+        fragmentList.add(new ContentFragment(Constant.INDEX_PAGE_2));
     }
 
     @Override

@@ -2,15 +2,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.yuzhiyun.csdn.control.fragment.BlankFragment">
+    tools:context=".control.fragment.ContentFragment">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:gravity="center"
-        android:textSize="30dp"
-        android:id="@+id/tvContent"
+    <ListView
+        android:id="@+id/listVTitle"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="match_parent"></ListView>
 
 </FrameLayout>

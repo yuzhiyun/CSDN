@@ -28,7 +28,7 @@
                 android:id="@+id/btnFirst"
                 android:textColor="@color/colorPrimary"
                 android:background="@drawable/order_btn_white"
-                android:text="第一个"
+                android:text="csdn业界"
                 android:layout_width="wrap_content"
                 android:layout_height="35dp" />
 
@@ -37,7 +37,7 @@
                 android:layout_marginLeft="@dimen/activity_horizontal_margin"
                 android:background="@drawable/order_btn_colorprimary"
                 android:textColor="@android:color/white"
-                android:text="第二个"
+                android:text="csdn研发"
                 android:layout_width="wrap_content"
                 android:layout_height="35dp" />
         </LinearLayout>

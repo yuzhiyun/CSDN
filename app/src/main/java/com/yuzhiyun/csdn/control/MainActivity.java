@@ -6,7 +6,7 @@ import android.widget.Button;
 
 import com.yuzhiyun.csdn.R;
 import com.yuzhiyun.csdn.control.base.BaseActivity;
-import com.yuzhiyun.csdn.model.ContentAdapter;
+import com.yuzhiyun.csdn.model.adapter.ContentAdapter;
 
 import butterknife.Bind;
 import butterknife.OnClick;
@@ -51,6 +51,9 @@ public class MainActivity extends BaseActivity {
         });
     }
 
+    /**
+     * 切换viewpager的item以及切换按钮样式
+     */
     @OnClick(R.id.btnFirst)
     public void btnFirst() {
         btnFirst.setTextColor(getResources().getColor(R.color.colorPrimary));
